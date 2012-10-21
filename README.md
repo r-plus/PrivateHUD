@@ -9,12 +9,17 @@ Easy and simple HUD system for iOS 4+ using UIProgressHUD(PrivateAPI!).
 
 ### Usage
 Show HUD via class method. If you want to manually manage done or hide timing, should specific 1st or 2nd method in below.
+
     + (void)showWithHUDSize:(CGSize)HUDSize;
     + (void)showWithHUDSize:(CGSize)HUDSize text:(NSString *)text;
     + (void)showWithHUDSize:(CGSize)HUDSize text:(NSString *)text doneDelay:(NSTimeInterval)doneDelay autoHideDelay:(NSTimeInterval)autoHideDelay;
+
 Manually change to done check mark.
+
     + (void)done;
+
 Manually dismiss.
+
     + (void)dismiss;
 
 ### License
