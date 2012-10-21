@@ -2,7 +2,7 @@
 Easy and simple HUD system for iOS 4+ using UIProgressHUD(PrivateAPI!).
 
 ### Install for theos
-* Copy `PrivateHUD.h/.m` file to your project.
+* Copy `PrivateHUD.h/.m` files to your project.
 * Add `Private.m` to Makefile target file.
 * Add `QuartzCore` and `CoreGraphics` to linking FRAMEWORKS list in Makefile.
 * Add `#import "PrivateHUD.h"` to your tweak file.
